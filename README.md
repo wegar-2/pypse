@@ -6,6 +6,8 @@ Single function *gpsedat* allows you to pull any data made available via GUI.
 
 You can view PSE API [here](https://api.raporty.pse.pl/app/home) and the API's doc [here](https://api.raporty.pse.pl/EndpointsMap.pdf).
 
+Some of the data published by PSE are visualized [on their site](https://raporty.pse.pl/)
+
 ### Example:
 You can pull data on energy imbalance for Jan 1st, 2026 by running:
 ```commandline
@@ -31,3 +33,16 @@ The output should be:
 ```
 
 Check the API's doc (link above) for comprehensive list of available endpoints and fields.
+
+
+### Installation
+
+To install from github run either:
+```commandline
+uv pip install git+https://github.com/wegar-2/pypse.git@master
+```
+
+or:
+```commandline
+pip install git+https://github.com/wegar-2/pypse.git@master
+```
