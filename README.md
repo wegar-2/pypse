@@ -16,7 +16,7 @@ from pypse.gpsedat import gpsedat
 
 data = gpsedat(
     endpoint="price-fcst",
-    fields=["dtime", "imb_energy"',
+    fields=["dtime", "imb_energy"],
     day=date(2026, 1, 1)
 )
 data.head()
