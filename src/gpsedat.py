@@ -6,7 +6,7 @@ import requests
 
 from src.constants import API_ENDPOINT, PSE_API_V2_FIELDS
 
-__all__ = ["gdat"]
+__all__ = ["gpsedat"]
 
 
 def _validate_fields(
@@ -24,7 +24,7 @@ def _validate_fields(
         )
 
 
-def gdat(
+def gpsedat(
     endpoint: str,
     day: str | date | datetime,
     fields: list[str],
