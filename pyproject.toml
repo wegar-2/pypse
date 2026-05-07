@@ -1,10 +1,19 @@
 [project]
 name = "pypse"
 version = "0.1.0"
+description = "Pull PSE API data into Python"
 requires-python = ">=3.14"
+keywords = [
+    "PSE", "KSE", "energy", "power", "imbalance", "API", "energy-prices",
+    "PL", "Poland", "electricity", "data"
+]
+authors = [
+    {name = "Artur Wegrzyn", email = "awegrzyn17@gmail.com" }
+]
+maintainers = [
+    {name = "Artur Wegrzyn", email = "awegrzyn17@gmail.com" }
+]
 dependencies = [
-    "matplotlib>=3.10.9",
     "pandas>=3.0.2",
     "requests>=2.33.1",
-    "scikit-learn>=1.8.0",
 ]
